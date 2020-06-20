@@ -78,8 +78,8 @@
         	
         	<center>
         	<div id="mb20">
-        	<input type="submit" title="loginButton" value="ログイン" style="width: 110px; height: 50px;" >
-        	<input type="submit" title="exitButton" value="終了" style="width: 110px; height: 50px;">
+        	<input type="submit" title="loginButton" value="ログイン" style="width: 110px; height: 50px;">
+        	<input type="button" title="exitButton" value="終了" style="width: 110px; height: 50px;">
         	</div>
         	</center>
         	

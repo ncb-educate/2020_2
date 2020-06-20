@@ -24,7 +24,7 @@ public class HomeController {
 	 */
 	
 	//LOGIN001.jsp
-	@RequestMapping(value = "/LOGIN001", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
@@ -40,7 +40,25 @@ public class HomeController {
 	
 	//CREATE001.jsp
 	@RequestMapping(value = "/CREATE001")
-	public String create() {
+	public String CREATE001() {
 		return "CREATE001";
+	}
+	
+	// BOARD001.jsp
+		@RequestMapping(value = "/BOARD001")
+		public String BOARD001() {
+			return "BOARD001";
+	}
+		
+	// BOARD002.jsp
+	@RequestMapping(value = "/BOARD002")
+	public String BOARD002() {
+		return "BOARD002";
+	}
+		
+	// BOARD004.jsp
+	@RequestMapping(value = "/BOARD004")
+	public String BOARD004() {
+		return "BOARD004";
 	}
 }

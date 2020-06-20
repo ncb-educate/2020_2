@@ -81,7 +81,7 @@ function Num_check(str){
 	
 		<center>
 	        <button type="submit" title="checkButton" value="加入" onclick="location.href='유효성검사페이지'" style="width: 150px; height: 50px;" >加入</button>
-	        <button type="button" title="backButton" value="戻る" onclick="location.href='/ncbSpring/LOGIN001'" style="width: 150px; height: 50px;">戻る</button>
+	        <button type="button" title="backButton" value="戻る" onclick="location.href='/ncbSpring'" style="width: 150px; height: 50px;">戻る</button>
 	    </center>
 	    
 	</div>   
