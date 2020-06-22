@@ -41,5 +41,13 @@ public class HomeController {
 		return "login";
 	}
 	
+	@RequestMapping(value = "membership", method = RequestMethod.GET)
+	public String membership() {
+		return "membership";
+	}
 	
+	@RequestMapping(value = "notice", method = RequestMethod.GET)
+	public String notice() {
+		return "notice";
+	}
 }
