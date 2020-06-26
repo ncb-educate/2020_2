@@ -50,4 +50,14 @@ public class HomeController {
 	public String notice() {
 		return "notice";
 	}
+	
+	@RequestMapping(value = "modify", method = RequestMethod.GET)
+	public String modify() {
+		return "modify";
+	}
+	
+	@RequestMapping(value = "boardList", method = RequestMethod.GET)
+	public String boardList() {
+		return "boardList";
+	}
 }
