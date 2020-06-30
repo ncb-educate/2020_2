@@ -62,7 +62,7 @@ table {	width : 90%;
 			</tr>
 			<tr style="background-color: #f2f2f2" height="65px">
 				<td class="center">1</td>
-				<td><a href="/ncbSpring/BOARD004">お知らせ</a></td>
+				<td><a href="/ncbSpring/BOARD002">お知らせ</a></td>
 				<td class="center">ADMIN</td>
 				<td class="center">２０２０－０４－２０</td>
 			</tr>

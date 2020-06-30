@@ -55,6 +55,7 @@ function Num_check(str){
 	alert("半角数字以外入力不可です。");}
 	}
 
+
 </script>
 
 <body>
